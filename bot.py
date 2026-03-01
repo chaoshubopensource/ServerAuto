@@ -5,8 +5,8 @@ import json
 import asyncio
 from openai import OpenAI
 
-DISCORD_TOKEN = os.environ.get("MTQ3Nzc2Njk2NDgxNzY5NDczMQ.G3ckfM.EPSzsS7higBvuScXVDx2iFQ4pG7LD7wXnAI-lg")
-DEEPSEEK_API_KEY = os.environ.get("sk-1f42f93518c442ef8a2104d040d00a96")
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
 
 ai = OpenAI(
     api_key=DEEPSEEK_API_KEY,
